@@ -14,8 +14,8 @@ void getAddress(
 
 void nameParams(){
   getAddress('일본', city: '도쿄도', gu : '나카노구', ro : '노가타 2-29-18');
-   getAddress('대한민국', city: '대구광역시', gu : '달성군', ro : '다사읍');
-   getAddress('대한민국', gu: '달성군');
+  getAddress('대한민국', city: '대구광역시', gu : '달성군', ro : '다사읍');
+  getAddress('대한민국', gu: '달성군');
 }
 
 //2)위치적 선택 매개변수(Optional positional parameters)

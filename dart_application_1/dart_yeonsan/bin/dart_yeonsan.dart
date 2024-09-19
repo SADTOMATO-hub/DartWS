@@ -7,7 +7,7 @@ void main(List<String> arguments) {
   result = num % 2;
   print('%2, $result');
   result = num ~/ 2;
-  print('~/2. $result'); //int로 값이 고정반환
+  print('~/2, $result'); //int로 값이 고정반환
 
   num ~/= 2; // num = num ~/ 2;
   print('$num');
@@ -18,8 +18,8 @@ void main(List<String> arguments) {
 
   String? msg = null;
   print(msg);
-  msg ??= 'Hello, dart!';
-  print(msg);
   msg ??= 'Gloomy Weekend';
+  print(msg);
+  msg ??= 'shiny Weekend';
   print(msg);
 }
